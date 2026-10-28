@@ -1,0 +1,15 @@
+{
+  "name": "backend-laboratorio",
+  "version": "1.0.0",
+  "description": "Backend para el Gestor de Presets Vocales y Sesiones de Audio (Render + PostgreSQL Neon)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
